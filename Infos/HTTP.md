@@ -1,0 +1,1 @@
+**_Hypertext Transfer Protocol (HTTP)_** é um protocolo de [[camada de aplicação]] para transmissão de documentos hipermídia, como o [[HTML]]. Desenvolvido para comunicação entre navegadores _web_ e [[webservers]]

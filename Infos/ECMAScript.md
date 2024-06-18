@@ -1,0 +1,1 @@
+> "O ECMAScript cresceu e se tornou uma das linguagens de programação de uso geral mais usadas no mundo. Ela é mais conhecida como a linguagem incorporada nos navegadores da Web, mas também foi amplamente adotada para aplicativos incorporados e de servidor." -  [ECMA International Language Specification](https://262.ecma-international.org/6.0/#sec-ecmascript-overview)

@@ -1,0 +1,2 @@
+A referência de um [[Objeto]] é o _link_ para um objeto.
+Quando você atribui um mesmo objeto para mais que uma [[Propriedades |Propriedade]], melhor do que ter uma cópia do objeto, **cada uma das propriedades atribuídas contém a referência de um objeto** que "_linka_" para **um mesmo objeto**, para que, quando o objeto ser alterado, todas as propriedades referindo ao objeto tem essas **alterações refletidas.**.

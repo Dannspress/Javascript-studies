@@ -1,0 +1,1 @@
+Linguagens dinâmicas, como o [[JavaScript]], são aquelas onde o [[Interpretador]] atribui para as [[variável|variáveis]] um [[Tipagem|tipo]] em tempo de execução com base no [[valores|valor]] da variável no atual momento.
