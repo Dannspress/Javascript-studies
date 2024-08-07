@@ -163,3 +163,66 @@ Uma _String_ pode ser tratada como uma **lista de caracteres** onde o primeiro c
 - **_Strings_ são imutáveis**
 
 Há vários métodos para se utilizar relacionado a _Strings_, como `toUpperCase, toLowerCase, trim, includes, startsWith, endsWith, slice`
+
+## Booleans
+
+Javascript utiliza `true` e `false` para representar os valores lógicos. Para cada um dos operadores lógicos (NOT, AND and OR) há operadores correspondentes (`!`, `&&` e `||`), podendo ser manipulados em sua [[precedência]] com parênteses `()`.
+
+## Arrays
+
+Em Javascript, _arrays_ são estruturas semelhantes a listas com tamanho **não fixo** que pode conter **primitivos** de qualquer tipo, únicos ou misturados, ou **objetos**; possui variadas propriedades, como `length`, e [métodos](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array#instance_methods), para se manipular.
+
+- Criação de Arrays
+  - Basta adicionar elementos entre colchetes `[]`
+    `const names = ['Jack', 'Laura', 'Paul', 'Megan'];`
+
+Arrays não podem utilizar _strings_ como index, mas podem utilizar **inteiros**.
+
+#### Métodos clássicos
+
+- `push()`
+  - Adiciona um ou mais elementos ao **final** do Array; retorna o _length_
+- `pop()`
+  - Remove o elemento ao **final** do Array; retorna o elemento
+- `shift()`
+  - Remove o elemento no **início** do Array; retorna o elemento
+- `unshift()`
+  - Adiciona um ou mais elementos ao **início** do Array; retorna o _length_
+- `splice()`
+  - Remove, adiciona ou altera elementos existentes no Array; retorna o elemento que sofreu a alteração.
+
+## Condicionais
+
+Utilizado principalmente com operadores lógicos.
+Suas palavras-chave são comumente: `if`, que executará quando a condição for `true`, e `else`, que executará a outra possibilidade. Para encadeamento de mais condições, se possui o `else if`.
+
+```javascript
+if (condition) {
+  // code that is executed if "condition" is true
+} else {
+  // code that is executed otherwise
+}
+```
+
+#### Outras notações
+
+```javascript
+if (condition) doSomething();
+```
+
+```javascript
+if (condition) doSomething();
+```
+
+## Comparações
+
+| Comparação            | Operador |
+| --------------------- | -------- |
+| Maior que             | a > b    |
+| Maior ou igual que    | a >= b   |
+| Menor que             | a < b    |
+| Menor ou igual que    | a <= b   |
+| Igualdade estrita     | a === b  |
+| Igualdade não estrita | a !== b  |
+| Igualdade frouxa      | a == b   |
+| Igualdade não frouxa  | a != b   |
